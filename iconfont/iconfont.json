@@ -1,0 +1,44 @@
+{
+  "id": "4112034",
+  "name": "666.css",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3727597",
+      "name": "画笔",
+      "font_class": "huabi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5187402",
+      "name": "画框",
+      "font_class": "huakuang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5218167",
+      "name": "装饰画 画卷",
+      "font_class": "zhuangshihuahuajuan",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "8062168",
+      "name": "轮播图",
+      "font_class": "lunbotu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "9122494",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    }
+  ]
+}

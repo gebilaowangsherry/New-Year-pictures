@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>多元化</title>
+    <link
+      rel="stylesheet"
+      href="../css/iconfont.css"
+    />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link rel="stylesheet" href="../css/swiper.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style> 
+    </style>
+  </head>
+  <body>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent">
+        <li class="breadcrumb-item">
+          <a href="../首页.html" class="text-decoration-none h4 text-secondary"
+            >首页</a
+          >
+        </li>
+        <li class="breadcrumb-item active h4 text-warning" aria-current="page">
+          多元化
+        </li>
+      </ol>
+    </nav>
+    <div class="fan">
+      <i class="swiper-button-next" ></i>
+      <!-- <p>向左拖拽页面</p> -->
+   </div>
+   <p>向左滑动页面</p>
+   <div class="fan" id="left-fan">
+      <i class="swiper-button-prev " ></i>
+      <!-- <p>向右拖拽页面</p> -->
+   </div>
+   <p id="left-p">向右滑动页面</p>
+       <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="viewimg">
+            <img src="../images/年画摆件.jpg" alt="" >
+          </div>
+          <div class="viewtext">
+            <h1 id="text-h1">年画摆件</h1>
+            <p id="text-p">
+              “请尊门神，守护你爱的人”。一张张色彩艳丽、吉庆热烈的年画。
+              <br />
+              承载着中国人最质朴的情怀，也寄寓着对未来的美好期盼。
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="viewimg" id="viewimg-top">
+            <img src="../images/年画明信片 (5).jpg" alt="" />
+          </div>
+          <div class="viewtext-top">
+            <h1 id="text-h1">年画明信片</h1>
+            <p id="text-p">
+              明信片中描绘的人物惟妙惟肖，可以用来收藏装饰和临摹，年画图案的线条流畅，生动形象，色彩浓郁。<br />
+              明信片由精选的绵竹年画印制而成，是难得的收藏品。
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="viewimg">
+            <img src="../images/年画邮票.png" alt="" />
+          </div>
+          <div class="viewtext">
+            <h1 id="text-h1">年画邮票</h1>
+            <p id="text-p">
+              主图的雕刻线条精细到位，套色准确，体现出原作用线洗练流畅，色彩艳丽明快的巴蜀文化风情。
+              <br />
+              邮票秉承了“木版年画”系列的艺术风格，在边饰的设计和素材的剪裁布局上推陈出新，整体效果更上一层楼。
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="viewimg" id="viewimg-top">
+            <img src="../images/年画倒影杯.jpg" alt="" />
+          </div>
+          <div class="viewtext-top">
+            <h1 id="text-h1">年画倒影杯</h1>
+            <p id="text-p">
+              结合年画元素创新出个性潮流的倒影杯，无论怎么放置杯子杯面上都将呈现出图案，图案精美细腻，具有绵竹年画独特的气息。
+              <br />
+              送朋友送家人送自己，创意礼品只为表达心意。
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="viewimg">
+            <img src="../images/年画册页.jpg" alt="" />
+          </div>
+          <div class="viewtext">
+            <h1 id="text-h1">年画册页</h1>
+            <p id="text-p">
+              清代版本的绵竹木板年画手绘册页里展示的内容广泛，形式多样。
+              <br />
+              大多寓意福寿美满、繁荣昌盛、财源广进、富贵平安、吉祥如意等。
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="viewimg" id="viewimg-top">
+            <img src="../images/年画扇1.jpg" alt="" >
+          </div>
+          <div class="viewtext-top">
+            <h1 id="text-h1">年画扇</h1>
+            <p id="text-p">
+              绵竹年画是世世代代民间化石们的勤劳和智慧的结晶，扇子以竹芯为骨架，扇面采用宣纸覆盖，金丝工艺直接粘嵌在纸面加以润色。
+              <br />
+              体现了巴蜀人民乐观向上的思想感情和古老的民族风尚。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+  </body>
+</html>
+<script>
+    </script>
+     <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
